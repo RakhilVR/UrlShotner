@@ -4,14 +4,6 @@ var urlShorterner = require("./urlShorter")
 var database = require("../config/dbconnection");
 const { ObjectId } = require('mongodb');
 
-
-
-
-/* GET home page. */
-app.get('/', function (req, res, next) {
-
-});
-
 app.post("/shortUrl", async (req, res) => {
   const { url } = req.body;
   try {
