@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
 
-          <Route path="urlshortner" element={<Urlshorter />} />
+          <Route path="/" element={<Urlshorter />} />
 
 
         </Routes>
